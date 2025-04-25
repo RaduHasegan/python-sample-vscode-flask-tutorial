@@ -87,12 +87,12 @@ stages:
           displayName: 'Increment patch version'
         # - bash: |
         #     git fetch origin
-        #     git checkout main
+        #     git checkout dev
         #     git config user.name "Radu Hasegan"
         #     git config user.email "radu.hasegan80@gmail.com"
         #     git add version.txt
         #     git commit -m "Increment version to $(cat version.txt)"
-        #     git push origin main
+        #     git push origin dev
         #   displayName: 'Commit new version'
         #   condition: succeeded()
 - stage: Deploy
